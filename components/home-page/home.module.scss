@@ -1,0 +1,81 @@
+.container{  
+    margin-top: 120px;
+    color: var(--extra-color-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+    align-items: center;     
+    gap: 50px;
+    &:hover{
+        color: var(--extra-color-light);        
+    }
+  }
+  
+  .githubIcon {    
+    transition: transform 0.3s ease-in-out;    
+    &:hover {
+        content: url('/github-icons/github-mark-white.png');
+        border: 10px solid var(--extra-color-light);
+        border-radius: 50%;
+        transform: scale(1.05);
+      }
+  }
+  
+  .listPages{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;  
+  }
+  
+  #btnPage{
+    padding: 5px;
+    width: 100px;
+    border: 2px solid var(--extra-color-light);  
+    border-radius: 5px;
+    background-color: var(--extra-color-dark);
+    color: var(--primary-text-color);
+    transition: transform 0.3s ease-in-out;
+    &:hover{
+        font-size: 700;
+        transform: scale(1.2);
+      }
+  }
+  
+  #searchBox{
+    width: 120px;
+    border: 2px solid var(--extra-color-dark);
+    border-radius: 5px;
+    background-color: var(--extra-color-light);
+    font-weight: 700;
+    color: var(--primary-color);
+    transition: transform 0.3s ease-in-out;
+    &:hover{
+        transform: scale(1.2);
+      }
+  }
+    
+  .errorMessage{
+    margin: 50px;
+    text-align: center;
+    color: var(--extra-color-light);
+  }
+
+  .githubLink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    gap: 15px;
+  }
+
+  .arrowIcon{    
+    width: 50px;
+    height: 50px;
+    color: var(--extra-color-dark);
+    transition: transform 0.3s ease-in-out;
+    &:hover{
+        color: var(--extra-color-light);
+        transform: scale(2);
+    }
+}
