@@ -38,7 +38,9 @@ function AllUsersPage({ users }) {
 
   return (
     <Fragment>
+      {/* Kullanıcı sayfalarının indeksini gösteren bileşen */}
       <UsersIndexPage handleGoToPage={handleGoToPage} handleNextPage={handleNextPage} handlePageNumberChange={handlePageNumberChange} handlePreviousPage={handlePreviousPage} page={page} pageNumber={pageNumber} />
+      {/* Olmayan bir sayfa yönlendirmesi için kontrol işlemi */}
       {users.length > 0 ? (
         <UserListPage users={users} />
       ) : (

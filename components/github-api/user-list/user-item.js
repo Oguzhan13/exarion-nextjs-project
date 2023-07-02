@@ -28,6 +28,7 @@ function UserItem({user}) {
             <li>{user.type}</li>
             <li>{user.id}</li>
             <li>
+              {/* Kullanıcının site içerisindeki profil sayfasına yönlendir */}
               <Link href={profileLink}>
                 {user.login}  <button className={styles.btnProfile}><ArrowRightIcon className={styles.arrowIcon}/></button>
               </Link>

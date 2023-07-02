@@ -8,6 +8,7 @@ function UserNamePage({ userProfile }) {
 
   return (
     <Fragment>
+      {/* Kullanıcı profilini gösteren bileşen */}
       <UserProfile userName={userName} userProfile={userProfile} />
     </Fragment>
   );

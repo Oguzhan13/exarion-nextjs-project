@@ -18,6 +18,7 @@ function HomePage() {
           <h3>Github Kullanıcı Listesi</h3>
           </div>
           <div>
+          {/* pages/users/index.js dosyasına yönlendirir */}
           <Link href="/users"><ArrowRightIcon className={styles.arrowIcon}/></Link>
           </div>          
         </div>

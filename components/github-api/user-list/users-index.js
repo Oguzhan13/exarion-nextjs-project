@@ -15,6 +15,7 @@ function UsersIndexPage({handlePreviousPage, handleNextPage, handlePageNumberCha
                 <button id={styles.btnPage} onClick={handleNextPage}>
                 Sonraki
                 </button>
+                {/* Sayfa numarası ile arama çubuğu */}
                 <input
                     id={styles.searchBox}
                     type='text'

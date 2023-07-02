@@ -8,6 +8,7 @@ function MainHeader() {
   const router = useRouter();
   const [searchTerm, setSearchTerm] = useState('');
 
+  // Form ile gönderilen kullanıcı adı ile ilgili sayfaya yönlendirir
   const handleSearch = (e) => {
     e.preventDefault();
     router.push(`/users/${searchTerm}`);
@@ -54,7 +55,7 @@ function MainHeader() {
 
 export async function getServerSideProps(context) {
   const { username } = context.query;
-
+  // İstenilen kullanıcı bilgilerini api sorgusu ile getirir
   await findUser({username});
 }
 
