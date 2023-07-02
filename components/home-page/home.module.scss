@@ -11,7 +11,7 @@
     }
   }
   
-  .githubIcon {    
+  .icon {    
     transition: transform 0.3s ease-in-out;    
     &:hover {
         content: url('/github-icons/github-mark-white.png');
@@ -61,7 +61,7 @@
     color: var(--extra-color-light);
   }
 
-  .githubLink{
+  .link{
     display: flex;
     flex-direction: column;
     justify-content: center;    

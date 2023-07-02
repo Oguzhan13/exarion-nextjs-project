@@ -11,14 +11,14 @@ function HomePage() {
           <h1>Hoşgeldiniz</h1>      
         </div>
         <div>
-          <img className={styles.githubIcon} src="/github-icons/github-mark.png" alt="GitHub Logo" />
+          <img className={styles.icon} src="/github-icons/github-mark.png" alt="GitHub Logo" />
         </div>
-        <div className={styles.githubLink}>
+        <div className={styles.link}>
           <div>
           <h3>Github Kullanıcı Listesi</h3>
           </div>
           <div>
-          <Link href="/api"><ArrowRightIcon className={styles.arrowIcon}/></Link>
+          <Link href="/users"><ArrowRightIcon className={styles.arrowIcon}/></Link>
           </div>          
         </div>
       </div>      

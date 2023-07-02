@@ -1,0 +1,69 @@
+.card{
+    padding: 10px;
+    margin: 25px 50px;
+    display: flex;
+    border: 2px solid var(--primary-text-color);
+    border-radius: 15px;
+    gap: 50px;    
+    background-color: var(--secondary-color);
+    color: var(--secondary-text-color);
+    transition: transform 0.3s ease-in-out;
+    &:hover{
+      border: 2px solid var(--extra-color-light);
+      transform: scale(1.05);
+    }
+  }
+  .items{
+    display: flex;     
+    gap: 15px;
+  }
+  .itemKey{
+    color: var(--extra-color-dark);
+    font-weight: 700;
+    // width: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;    
+    &:hover{
+      color: var(--extra-color-light);
+      font-weight: 900;      
+    }
+  }
+  .itemValue{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;    
+    &:hover{
+      color: var(--primary-text-color);
+      font-weight: 900;      
+    }
+  }
+  
+  .profilePhoto{
+    width: 150px;
+    border: 2px solid whitesmoke;
+    border-radius: 150px;
+    transition: transform 0.3s ease-in-out;
+    &:hover{
+      border: 4px solid var(--extra-color-light);
+      transform: scale(1.1);
+    }
+  }
+
+  .btnProfile{
+    background-color: var(--extra-color-dark);
+    border: 2px solid var(--extra-color-light);   
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+    &:hover{
+      background-color: var(--extra-color-light);
+      transform: scale(1.1);
+    } 
+  }
+
+  .arrowIcon{
+    width: 40px;
+    height: 10px;
+    color: var(--primary-text-color);
+  }

@@ -1,0 +1,92 @@
+.container{
+    margin: 70px;
+    color: var(--primary-text-color);    
+    display: flex;    
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.card{
+    padding: 2%;
+    display: flex;
+    gap: 50px;
+    border: 2px solid var(--extra-color-dark);
+    transition: transform 0.3s ease-in-out;
+    &:hover{
+        transform: scale(1.1);
+        border: 2px solid var(--extra-color-light);
+    }
+}
+
+.avatar{
+    margin: 25px 25px 0 0;
+    width: 200px;
+    border: 2px solid var(--extra-color-dark);
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+    &:hover{
+        border: 2px solid var(--extra-color-light);
+        transform: scale(1.1);
+    }
+}
+
+.key{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color:var(--extra-color-dark);    
+    &:hover{
+        color:var(--extra-color-light);
+        font-size: 900;        
+    }
+}
+
+.value {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--secondary-text-color);
+    list-style: none;
+
+    &:hover {
+      color: var(--primary-text-color);
+      font-size: 900;
+    }
+  }
+  
+
+.addressIcon{
+    width: 20px;
+    height: 20px;
+    color: var(--extra-color-dark);
+    &:hover{
+        color: var(--extra-color-light);
+    }
+}
+
+.adminIcon {
+    color: green;
+  }
+  
+  .notAdminIcon {
+    color: red;
+  }
+
+.btnProfile{
+    background-color: var(--extra-color-dark);
+    border: 2px solid var(--extra-color-light);
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+    &:hover{
+        background-color: var(--extra-color-dark);
+        transform: scale(1.1);
+    }
+}
+  
+.arrowIcon{
+    width: 40px;
+    height: 12px;
+    color: var(--primary-text-color);
+}

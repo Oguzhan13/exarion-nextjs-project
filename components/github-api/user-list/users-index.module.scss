@@ -1,0 +1,39 @@
+.container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;  
+}
+
+#btnPage {
+  padding: 5px;
+  width: 100px;
+  border: 2px solid var(--extra-color-light);  
+  border-radius: 5px;
+  background-color: var(--extra-color-dark);
+  color: var(--primary-text-color);
+  transition: transform 0.3s ease-in-out;
+  &:hover{
+    font-size: 700;
+    transform: scale(1.2);
+  }
+}
+
+#searchBox{
+  width: 120px;
+  border: 2px solid var(--extra-color-dark);
+  border-radius: 5px;
+  background-color: var(--extra-color-light);
+  font-weight: 700;
+  color: var(--primary-color);
+  transition: transform 0.3s ease-in-out;
+  &:hover{
+    transform: scale(1.2);
+  }
+}
+
+.errorMessage{
+  margin: 50px;
+  text-align: center;
+  color: var(--extra-color-light);
+}
