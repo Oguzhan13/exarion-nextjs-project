@@ -18,7 +18,7 @@ function HomePage() {
           <h3>Github Kullanıcı Listesi</h3>
           </div>
           <div>
-          <Link href="/users"><ArrowRightIcon className={styles.arrowIcon}/></Link>
+          <Link href="/api"><ArrowRightIcon className={styles.arrowIcon}/></Link>
           </div>          
         </div>
       </div>      
