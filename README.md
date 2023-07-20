@@ -1,16 +1,16 @@
-<img src="https://github.com/Oguzhan13/exarion-nextjs-project/assets/108337929/871b1674-4cce-465b-9a15-79911043246d" alt="Image1" width="300" height="400" />
-<img src="https://github.com/Oguzhan13/exarion-nextjs-project/assets/108337929/3092ee37-64b6-4abe-bfee-d2494cb9f279" alt="Image2" width="300" height="400" />
+<img src="https://github.com/Oguzhan13/exarion-nextjs-project/assets/108337929/871b1674-4cce-465b-9a15-79911043246d" alt="Image1" width="400" height="533" />
+<img src="https://github.com/Oguzhan13/exarion-nextjs-project/assets/108337929/3092ee37-64b6-4abe-bfee-d2494cb9f279" alt="Image2" width="400" height="533" />
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Dependencies
 
-"next": "13.4.7"
+**"next": "13.4.7"
 "react": "18.2.0"
 "react-dom": "18.2.0"
 "sass": "^1.63.6"
 "@fortawesome/free-solid-svg-icons": "^6.4.0"
-"@fortawesome/react-fontawesome": "^0.2.0"
+"@fortawesome/react-fontawesome": "^0.2.0"**
 
 ## Getting Started
 
