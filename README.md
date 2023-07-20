@@ -87,8 +87,7 @@ Information from user-profile.js is rendered.
 getServerSideProps function is used to organize API response information into a structured profile page.
 CSS styles are retrieved from [userName].module.scss file.
     
-**• components/github-api:**
-**•	user-list:**
+**• components/github-api/user-list:**
 **•	user-item.js:**
 User information is formatted and displayed, and a button is included to redirect to the user's profile page within the site.
 CSS information is retrieved from the user-item.module.scss file.
@@ -99,7 +98,8 @@ CSS information is retrieved from the user-list.module.scss file.
 Display format for the desired information on users/index.js page is prepared.
 handleGoToPage, handleNextPage, handlePreviousPage, and handlePageNumberChange functions, along with the page and pageNumber values, are used as parameters in this file.
 CSS information is retrieved from the users-list.module.scss file.
-**•	user-profile:**
+
+**•	components/github-api/user-profile:**
 **•	user-profile.js:**
 This file contains the information to be rendered for [userName].js.
 A button is included to redirect to the user's GitHub profile page.
